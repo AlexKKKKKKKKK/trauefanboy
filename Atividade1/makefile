@@ -10,10 +10,10 @@ client: client.c
 	$(CC) $(CFLAGS) -o client client.c
 
 clean:
-	rm -f chat_server chat_client
+	rm -f server client
 
 run-server:
-	./chat_server 5001
+	./server 5001
 
 run-client:
-	./chat_client 127.0.0.1 5001
+	./client 0.0.0.0 5001
