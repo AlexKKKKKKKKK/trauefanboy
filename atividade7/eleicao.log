@@ -1,0 +1,4 @@
+EVENT: SYSTEM | DET: Server started
+EVENT: VOTE | DET: 1
+EVENT: VOTE | DET: 2
+EVENT: ADMIN | DET: Votacao encerrada via console local
